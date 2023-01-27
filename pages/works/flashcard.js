@@ -11,16 +11,15 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 
+
 const Work = () => (
-  <Layout title="The four painters">
+  <Layout title="Flash Card App">
     <Container>
       <Title>
         Flash Card App <Badge>2022</Badge>
       </Title>
       <P>
-        A video work generated with deep learning, imitating famous four
-        painters: Van Gogh, Edvard Munch, Kiyoshi Yamashita, and Katsushika
-        Hokusai.
+        A Flash card generator app which generate random Flashcards of the selected topic and when the user clicks on it the card revels the answer.
       </P>
       <List ml={4} my={4}>
         <ListItem>
@@ -44,9 +43,9 @@ const Work = () => (
       
 
       
-      <WorkImage src="/images/works/flash1.png" alt="walknote" />
-      <WorkImage src="/images/works/flash2.png" alt="walknote" />
-      <WorkImage src="/images/works/flash3.png" alt="walknote" />
+      <WorkImage src="/images/works/flash1.PNG" alt="walknote" />
+      <WorkImage src="/images/works/flash2.PNG" alt="walknote" />
+      <WorkImage src="/images/works/flash3.PNG" alt="walknote" />
     </Container>
   </Layout>
 )
