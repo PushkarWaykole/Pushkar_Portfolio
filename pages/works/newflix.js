@@ -12,19 +12,20 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
 const Work = () => (
-  <Layout title="NewFlix">
+  <Layout title="HULU">
     <Container>
       <Title>
-        NewFlix <Badge>2022-</Badge>
+        HULU <Badge>2022-</Badge>
       </Title>
       <P>
-        A movie recommender app that displays movie according to the categories
+        A clone of HULU streaming website using Next js and tmdb api.
+        Along with lazy loading and responsive design using Tailwind CSS.
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Website</Meta>
-          <Link href="https://ceskkc.csb.app/">
-          https://ceskkc.csb.app/ <ExternalLinkIcon mx="2px" />
+          <Link href="https://hulu-clone-yt-f.vercel.app/">
+          https://hulu-clone-yt-f.vercel.app/ <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
         <ListItem>
@@ -33,12 +34,16 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>React</span>
+          <span>Next JS /</span>
+          <span>Tailwind CSS</span>
+          
+          
         </ListItem>
         
       </List>
 
-      <WorkImage src="/images/works/newflix.png" alt="Inkdrop" />
+      <WorkImage src="/images/works/hulu.PNG" alt="Inkdrop" />
+      <WorkImage src="/images/works/hulu2.PNG" alt="Inkdrop" />
       {/* <WorkImage src="/images/works/newflix2.png" alt="Inkdrop" />
       <WorkImage src="/images/works/newflix2.png" alt="Inkdrop" /> */}
       
