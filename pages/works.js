@@ -3,7 +3,8 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
-import newflix from '../public/images/works/newflix.png'
+// import newflix from '../public/images/works/newflix.png'
+import newflix from './works/works_images/hulu_jpg.jpg'
 import image_cropper from '../public/images/works/image_cropper.png'
 import flash from '../public/images/works/flash1.png'
 
@@ -17,7 +18,7 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
-          <WorkGridItem id="newflix" title="NewFlix" thumbnail={newflix}>
+          <WorkGridItem id="newflix" title="HULU" thumbnail={newflix}>
             A Movie recommender app with categories.
           </WorkGridItem>
         </Section>

@@ -5,12 +5,15 @@ import {
   List,
   ListItem
 } from '@chakra-ui/react'
+import Image from 'next/image';
 import { ExternalLinkIcon } from '@chakra-ui/icons'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-
+import img1 from './flash1.PNG'
+import img2 from './flash2.PNG'
+import img3 from './flash3.PNG'
 
 const Work = () => (
   <Layout title="Flash Card App">
@@ -32,20 +35,24 @@ const Work = () => (
             Flash Card <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
-        
-        
+
+
       </List>
 
-      
 
-      
 
-      
 
-      
-      <WorkImage src="/images/works/flash1.PNG" alt="walknote" />
-      <WorkImage src="/images/works/flash2.PNG" alt="walknote" />
-      <WorkImage src="/images/works/flash3.PNG" alt="walknote" />
+
+
+
+
+      <Image src={img1} height="300"
+        width="600" alt="walknote" />
+      <Image src={img2} height="300"
+        width="600" alt="walknote" />
+      <Image src={img3} height="300"
+        width="600" alt="walknote" />
+     
     </Container>
   </Layout>
 )
